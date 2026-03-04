@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Hallz to the Wallz</title>
+  <meta name="description" content="Hallz to the Wallz services: drywall, tape and texture, painting, framing, decks, railings, repairs and more. View before and after photos and request a quote." />
+</head>
+
+<body>
+
+<!-- ===================================================== -->
+<!--  HALLZ TO THE WALLZ | GLOBAL HEADER & NAVBAR         -->
+<!--  Copy this entire block into every page              -->
+<!--  Update the "active" class depending on the page     -->
+<!-- ===================================================== -->
+
+<header>
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/custom.css">
+
+  <!-- ================= NAVIGATION BAR ================== -->
+  <!--
+       - Dark background for strong contrast
+       - Sticky so it stays visible while scrolling
+       - Fully responsive with Bootstrap collapse
+  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+    <div class="container">
+
+      <!-- ================= BRAND / LOGO ================= -->
+      <!--
+           Clicking the logo always returns to Home
+           Keep logo small and clean
+      -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img 
+          src="assets/img/logo.jpg" 
+          alt="Hallz to the Wallz Logo" 
+          width="40" 
+          height="40" 
+          class="rounded"
+        >
+        <span class="fw-semibold">Hallz to the Wallz</span>
+      </a>
+
+      <!-- ============== MOBILE TOGGLE BUTTON ============= -->
+      <!--
+           This appears on smaller screens
+           It toggles the collapsed navigation menu
+      -->
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#mainNav"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- ================ NAVIGATION LINKS =============== -->
+      <!--
+           The "active" class highlights the current page
+           IMPORTANT: Change which link has "active"
+      -->
+      <div class="collapse navbar-collapse" id="mainNav">
+
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+          <!-- Home -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <!-- Services -->
+          <li class="nav-item">
+            <a class="nav-link active" href="services.html">Services</a>
+          </li>
+
+          <!-- About -->
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <!-- Contact -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+          <!-- Call To Action Button -->
+          <!--
+               Stands out from normal nav links
+               Encourages quote requests
+          -->
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-warning fw-semibold" href="contact.html">
+              Request a Quote
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- ============== END NAVIGATION LINKS ============= -->
+
+    </div>
+  </nav>
+  <!-- ================= END NAVIGATION BAR =============== -->
+
+</header>
+
+<!-- ===================================================== -->
+<!--  END GLOBAL HEADER                                   -->
+<!-- ===================================================== -->
+
+<main>
+
+  <!-- ======================= HERO ======================= -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center g-4">
+
+        <div class="col-lg-7">
+          <h1 class="display-5 fw-bold mb-3">Services</h1>
+          <p class="lead mb-4">
+            Honest workmanship, clean results, and clear communication. If it needs fixed, cleaned up, tightened, repaired, or rebuilt, you are in the right place.
+          </p>
+
+          <div class="d-flex flex-wrap gap-2">
+            <a href="#before-after" class="btn btn-dark btn-lg fw-semibold">See Before and After</a>
+            <a href="contact.html" class="btn btn-warning btn-lg fw-semibold">Request a Quote</a>
+          </div>
+
+          <p class="text-muted mt-3 mb-0">
+            Local, reliable, and focused on doing it right the first time.
+          </p>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="card shadow-sm border-0">
+            <img
+              src="assets/img/working & repair/bthumbsup.jpg"
+              class="card-img-top"
+              alt="Brett giving a thumbs up after completing a project"
+              loading="lazy"
+            >
+            <div class="card-body">
+              <p class="mb-0">
+                Real work, real results. No mystery contractor vibes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES LIST ===================== -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-12">
+          <h2 class="fw-bold mb-2">What we do</h2>
+          <p class="text-muted mb-4">
+            Common jobs include repairs, upgrades, and small builds. If your project is not listed, send a message anyway. If it is in my wheelhouse, I will tell you. If it is not, I will tell you that too.
+          </p>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Drywall and texture</h3>
+              <p class="mb-0">
+                Repairs, patching, seam fixes, texture blending, and clean prep for paint.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Painting</h3>
+              <p class="mb-0">
+                Interior and exterior painting with real prep work, clean lines, and even coverage.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Framing and general repairs</h3>
+              <p class="mb-0">
+                Small framing, trim fixes, reinforcement, and the kind of repairs that make a home feel solid again.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Deck repairs and refresh</h3>
+              <p class="mb-0">
+                Replace damaged boards, tighten up loose sections, correct problem areas, and restore a clean finished look.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Entryways and steps</h3>
+              <p class="mb-0">
+                Fix wobbly steps, repair landings, improve safety, and clean up the look so your entry does not scream for help.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Railing repair and install</h3>
+              <p class="mb-0">
+                Secure loose rails, repair sections, and install sturdy handrails for safer decks, stairs, and walkways.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Structural support and framing</h3>
+              <p class="mb-0">
+                Reinforce supports, repair posts, and correct problem spots that cause bounce, movement, or long term damage.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Prep work and cleanup</h3>
+              <p class="mb-0">
+                Scraping, removal, and surface prep that sets the stage for a clean finish.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 text-center">
+          <a href="contact.html" class="btn btn-warning btn-lg fw-semibold">Request a Quote</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BEFORE / AFTER ================== -->
+  <section id="before-after" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-end g-3 mb-4">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-2">Before and after</h2>
+          <p class="text-muted mb-0">
+            Proof beats promises. Here are a few examples using real before and after photos.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="contact.html" class="btn btn-warning fw-semibold">Request a Quote</a>
+        </div>
+      </div>
+
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <div class="row g-4 align-items-center">
+            <div class="col-12">
+              <h3 class="h5 fw-bold mb-0">Deck repair</h3>
+              <p class="text-muted mb-0">Replace damaged areas and restore stability.</p>
+            </div>
+
+            <div class="col-md-6">
+              <div class="ratio ratio-4x3 rounded overflow-hidden border bg-white">
+                <img
+                  src="assets/img/before/bdeck.jpg"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Deck before repair"
+                  loading="lazy"
+                >
+              </div>
+              <div class="small text-muted mt-2">Before</div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="ratio ratio-4x3 rounded overflow-hidden border bg-white">
+                <img
+                  src="assets/img/after/adeck.jpg"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Deck after repair"
+                  loading="lazy"
+                >
+              </div>
+              <div class="small text-muted mt-2">After</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <div class="row g-4 align-items-center">
+            <div class="col-12">
+              <h3 class="h5 fw-bold mb-0">Entryway improvement</h3>
+              <p class="text-muted mb-0">Safer access and a cleaner first impression.</p>
+            </div>
+
+            <div class="col-md-6">
+              <div class="ratio ratio-4x3 rounded overflow-hidden border bg-white">
+                <img
+                  src="assets/img/before/bentry.jpg"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Entryway before repair"
+                  loading="lazy"
+                >
+              </div>
+              <div class="small text-muted mt-2">Before</div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="ratio ratio-4x3 rounded overflow-hidden border bg-white">
+                <img
+                  src="assets/img/after/aentry.jpg"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Entryway after repair"
+                  loading="lazy"
+                >
+              </div>
+              <div class="small text-muted mt-2">After</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <div class="row g-4 align-items-center">
+            <div class="col-12">
+              <h3 class="h5 fw-bold mb-0">Railing repair</h3>
+              <p class="text-muted mb-0">Secure rails that look good and feel solid.</p>
+            </div>
+
+            <div class="col-md-6">
+              <div class="ratio ratio-4x3 rounded overflow-hidden border bg-white">
+                <img
+                  src="assets/img/before/brail.jpg"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Railing before repair"
+                  loading="lazy"
+                >
+              </div>
+              <div class="small text-muted mt-2">Before</div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="ratio ratio-4x3 rounded overflow-hidden border bg-white">
+                <img
+                  src="assets/img/after/arail.jpg"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Railing after repair"
+                  loading="lazy"
+                >
+              </div>
+              <div class="small text-muted mt-2">After</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <div class="row g-4 align-items-center">
+            <div class="col-12">
+              <h3 class="h5 fw-bold mb-0">Support reinforcement</h3>
+              <p class="text-muted mb-0">Strengthen structure and remove the sketchy feel.</p>
+            </div>
+
+            <div class="col-md-6">
+              <div class="ratio ratio-4x3 rounded overflow-hidden border bg-white">
+                <img
+                  src="assets/img/before/bsupport.jpg"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Support structure before reinforcement"
+                  loading="lazy"
+                >
+              </div>
+              <div class="small text-muted mt-2">Before</div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="ratio ratio-4x3 rounded overflow-hidden border bg-white">
+                <img
+                  src="assets/img/after/asupport.jpg"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Support structure after reinforcement"
+                  loading="lazy"
+                >
+              </div>
+              <div class="small text-muted mt-2">After</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =================== HOW IT WORKS =================== -->
+  <section class="py-5">
+    <div class="container">
+
+      <div class="row g-4 align-items-stretch">
+
+        <!-- LEFT CARD -->
+        <div class="col-lg-6 d-flex">
+          <div class="card shadow-sm w-100 services-equal-cards">
+            <div class="card-body d-flex flex-column">
+
+              <h2 class="h4 fw-bold mb-3">How it works</h2>
+
+              <div class="d-flex gap-3 mb-4">
+                <div class="flex-shrink-0">
+                  <span class="badge bg-dark rounded-pill px-3 py-2">1</span>
+                </div>
+                <div>
+                  <h3 class="h6 fw-bold mb-1">Reach out</h3>
+                  <p class="text-muted mb-0">Send a quick message with what you need. Photos help a lot.</p>
+                </div>
+              </div>
+
+              <div class="d-flex gap-3 mb-4">
+                <div class="flex-shrink-0">
+                  <span class="badge bg-dark rounded-pill px-3 py-2">2</span>
+                </div>
+                <div>
+                  <h3 class="h6 fw-bold mb-1">Estimate and plan</h3>
+                  <p class="text-muted mb-0">We agree on scope, materials, and schedule. No surprises, no chaos.</p>
+                </div>
+              </div>
+
+              <div class="d-flex gap-3 mb-4">
+                <div class="flex-shrink-0">
+                  <span class="badge bg-dark rounded-pill px-3 py-2">3</span>
+                </div>
+                <div>
+                  <h3 class="h6 fw-bold mb-4">Work gets done</h3>
+                  <p class="text-muted mb-0">Show up, do the work, clean up, and leave it better than I found it.</p>
+                </div>
+              </div>
+
+              <div class="d-flex gap-3 mt-auto">
+                <div class="flex-shrink-0">
+                  <span class="badge bg-dark rounded-pill px-3 py-2">4</span>
+                </div>
+                <div>
+                  <h3 class="h6 fw-bold mb-1">Final walkthrough</h3>
+                  <p class="text-muted mb-0">You check it, we confirm it, then we call it done.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT CARD -->
+        <div class="col-lg-6 d-flex">
+          <div class="card shadow-sm w-100 services-equal-cards">
+            <div class="card-body d-flex flex-column">
+
+              <h2 class="h4 fw-bold mb-3">Working photos</h2>
+
+              <div class="flex-grow-1 d-flex">
+                <div class="row g-3 flex-grow-1 align-content-start w-100">
+
+                  <div class="col-6">
+                    <div class="ratio ratio-1x1 rounded overflow-hidden border h-100">
+                      <img
+                        src="assets/img/working & repair/bworkdeck.jpg"
+                        class="w-100 h-100 object-fit-cover"
+                        alt="Working on a deck project"
+                        loading="lazy"
+                      >
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="ratio ratio-1x1 rounded overflow-hidden border h-100">
+                      <img
+                        src="assets/img/working & repair/bworkdeck2.jpg"
+                        class="w-100 h-100 object-fit-cover"
+                        alt="Deck work in progress"
+                        loading="lazy"
+                      >
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="ratio ratio-1x1 rounded overflow-hidden border h-100">
+                      <img
+                        src="assets/img/working & repair/bworkwall.jpg"
+                        class="w-100 h-100 object-fit-cover"
+                        alt="Wall repair work in progress"
+                        loading="lazy"
+                      >
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="ratio ratio-1x1 rounded overflow-hidden border h-100">
+                      <img
+                        src="assets/img/working & repair/bworkwall2.jpg"
+                        class="w-100 h-100 object-fit-cover"
+                        alt="Wall repair project from a different angle"
+                        loading="lazy"
+                      >
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================= FAQ ======================== -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-5">
+          <h2 class="fw-bold mb-2">Questions</h2>
+          <p class="text-muted mb-0">
+            Quick answers for the stuff people usually ask before they hit Request a Quote.
+          </p>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="accordion" id="servicesFaq">
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqOneHeading">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+                  Do you handle small jobs?
+                </button>
+              </h3>
+              <div id="faqOne" class="accordion-collapse collapse show" aria-labelledby="faqOneHeading" data-bs-parent="#servicesFaq">
+                <div class="accordion-body">
+                  Yes. Small jobs are often the fastest way to make a home feel more solid and more put together.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqTwoHeading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                  What do you need from me for an estimate?
+                </button>
+              </h3>
+              <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqTwoHeading" data-bs-parent="#servicesFaq">
+                <div class="accordion-body">
+                  A short description, your location, and a couple photos. The more clear you are, the faster I can be accurate.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqThreeHeading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                  Do you offer before and after photos for every job?
+                </button>
+              </h3>
+              <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqThreeHeading" data-bs-parent="#servicesFaq">
+                <div class="accordion-body">
+                  If you want them, yes. It is helpful for documenting work and it makes it easy to show the difference.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqFourHeading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                  What if my project is not listed here?
+                </button>
+              </h3>
+              <div id="faqFour" class="accordion-collapse collapse" aria-labelledby="faqFourHeading" data-bs-parent="#servicesFaq">
+                <div class="accordion-body">
+                  Send it anyway. Worst case, I tell you no and you lose thirty seconds. Best case, you get it handled.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== CTA ======================= -->
+  <section class="py-5">
+    <div class="container">
+      <div class="card bg-dark text-white shadow-sm">
+        <div class="card-body p-4 p-lg-5">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+              <h2 class="fw-bold mb-2">Ready to get it done?</h2>
+              <p class="mb-0 text-white-50">
+                Send a message with what you need and a couple photos. I will respond with next steps and a clear plan.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="contact.html" class="btn btn-warning btn-lg fw-semibold">Request a Quote</a>
+              <a href="about.html" class="btn btn-outline-light btn-lg fw-semibold ms-lg-2 mt-2 mt-lg-0">Meet Brett</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row g-3 align-items-center">
+      <div class="col-md-6">
+        <div class="d-flex align-items-center gap-2">
+          <img src="assets/img/logo.jpg" alt="Hallz to the Wallz Logo" width="32" height="32" class="rounded">
+          <div>
+            <div class="fw-semibold">Hallz to the Wallz</div>
+            <div class="small text-white-50">Reliable repairs. Clean results.</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="contact.html" class="btn btn-warning fw-semibold">Request a Quote</a>
+        <div class="small text-white-50 mt-2">
+          © <span id="year"></span> Hallz to the Wallz. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
