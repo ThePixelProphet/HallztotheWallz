@@ -9,8 +9,6 @@
 
 <!-- ===================================================== -->
 <!--  HALLZ TO THE WALLZ | GLOBAL HEADER & NAVBAR         -->
-<!--  Copy this entire block into every page              -->
-<!--  Update the "active" class depending on the page     -->
 <!-- ===================================================== -->
 
 <header>
@@ -18,21 +16,9 @@
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/custom.css">
 
-  <!-- ================= NAVIGATION BAR ================== -->
-  <!--
-       - Dark background for strong contrast
-       - Sticky so it stays visible while scrolling
-       - Fully responsive with Bootstrap collapse
-  -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-
     <div class="container">
 
-      <!-- ================= BRAND / LOGO ================= -->
-      <!--
-           Clicking the logo always returns to Home
-           Keep logo small and clean
-      -->
       <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
         <img 
           src="assets/img/logo.jpg" 
@@ -44,11 +30,6 @@
         <span class="fw-semibold">Hallz to the Wallz LLC</span>
       </a>
 
-      <!-- ============== MOBILE TOGGLE BUTTON ============= -->
-      <!--
-           This appears on smaller screens
-           It toggles the collapsed navigation menu
-      -->
       <button 
         class="navbar-toggler" 
         type="button" 
@@ -61,40 +42,25 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- ================ NAVIGATION LINKS =============== -->
-      <!--
-           The "active" class highlights the current page
-           IMPORTANT: Change which link has "active"
-      -->
       <div class="collapse navbar-collapse" id="mainNav">
-
         <ul class="navbar-nav ms-auto align-items-lg-center">
 
-          <!-- Home -->
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
 
-          <!-- Services -->
           <li class="nav-item">
             <a class="nav-link" href="services.html">Services</a>
           </li>
 
-          <!-- About -->
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
 
-          <!-- Contact -->
           <li class="nav-item">
             <a class="nav-link active" href="contact.html">Contact</a>
           </li>
 
-          <!-- Call To Action Button -->
-          <!--
-               Stands out from normal nav links
-               Encourages quote requests
-          -->
           <li class="nav-item ms-lg-3">
             <a class="btn btn-warning fw-semibold" href="contact.html">
               Request a Quote
@@ -102,13 +68,10 @@
           </li>
 
         </ul>
-
       </div>
-      <!-- ============== END NAVIGATION LINKS ============= -->
 
     </div>
   </nav>
-  <!-- ================= END NAVIGATION BAR =============== -->
 
 </header>
 
@@ -118,124 +81,89 @@
 
 <main>
 
-  <!-- ================= PAGE HERO ======================= -->
+  <!-- ================= HERO ============================ -->
   <section class="py-5 bg-light">
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-lg-8">
-          <h1 class="fw-bold mb-3">Contact Hallz to the Wallz</h1>
-          <p class="lead text-muted mb-0">
-            Need a repair, an install, or help with a project around the house? Reach out and let’s talk about what you need done.
-          </p>
-        </div>
-      </div>
+    <div class="container text-center">
+      <h1 class="fw-bold mb-3">Contact Hallz to the Wallz</h1>
+      <p class="lead text-muted mb-0">
+        Need something fixed, installed, or built? Tell us what you’ve got and we’ll take it from there.
+      </p>
     </div>
   </section>
-  <!-- ================= END PAGE HERO =================== -->
 
   <!-- ================= CONTACT SECTION ================= -->
   <section class="py-5">
     <div class="container">
       <div class="row g-5">
 
-        <!-- ================= CONTACT INFO =============== -->
+        <!-- ===== LEFT SIDE INFO ===== -->
         <div class="col-lg-5">
+
           <h2 class="fw-bold mb-4">Get in Touch</h2>
 
           <p class="text-muted mb-4">
-            Hallz to the Wallz LLC is here to help with dependable handyman services and straightforward communication. Send over your project details and we will get back to you as soon as possible.
+            Send over your project details and we will get back to you as soon as possible. The more detail you include, the better we can help.
           </p>
 
-          <div class="mb-4">
-            <h5 class="fw-semibold mb-2">Phone</h5>
-            <p class="mb-0 text-muted">(406) 475-4957</p>
+          <div class="mb-3">
+            <h6 class="fw-semibold mb-1">Phone</h6>
+            <p class="text-muted mb-0">(406) 555 1234</p>
           </div>
 
-          <div class="mb-4">
-            <h5 class="fw-semibold mb-2">Email</h5>
-            <p class="mb-0 text-muted">info@hallztothewallz.com</p>
+          <div class="mb-3">
+            <h6 class="fw-semibold mb-1">Email</h6>
+            <p class="text-muted mb-0">info@hallztothewallz.com</p>
           </div>
 
-          <div class="mb-4">
-            <h5 class="fw-semibold mb-2">Service Area</h5>
-            <p class="mb-0 text-muted">
-              Serving local homeowners with reliable handyman services and project help.
-            </p>
-          </div>
-
-          <div class="p-4 bg-light rounded shadow-sm border">
-            <h5 class="fw-semibold mb-3">What to Include</h5>
-            <ul class="mb-0 text-muted ps-3">
-              <li>Your name and best contact information</li>
-              <li>A short description of the project</li>
-              <li>Any preferred timeline</li>
-              <li>Photos if they help explain the job</li>
+          <div class="mt-4 p-4 border rounded bg-light">
+            <h6 class="fw-semibold mb-2">Helpful Info to Include</h6>
+            <ul class="text-muted mb-0 ps-3">
+              <li>What needs to be done</li>
+              <li>Where the project is located</li>
+              <li>Any timeline you have in mind</li>
+              <li>Photos if available</li>
             </ul>
           </div>
-        </div>
-        <!-- ================= END CONTACT INFO =========== -->
 
-        <!-- ================= CONTACT FORM =============== -->
+        </div>
+
+        <!-- ===== FORM ===== -->
         <div class="col-lg-7">
           <div class="card border-0 shadow-sm">
             <div class="card-body p-4 p-md-5">
+
               <h2 class="fw-bold mb-4">Request a Quote</h2>
 
-              <form action="#" method="post">
+              <form action="https://formspree.io/f/xrerrgeb" method="POST">
+
+                <input type="hidden" name="_subject" value="New Hallz to the Wallz Quote Request">
 
                 <div class="row g-3">
 
                   <div class="col-md-6">
-                    <label for="firstName" class="form-label fw-semibold">First Name</label>
-                    <input 
-                      type="text" 
-                      class="form-control" 
-                      id="firstName" 
-                      name="firstName" 
-                      placeholder="First name"
-                      required
-                    >
+                    <label class="form-label fw-semibold">First Name</label>
+                    <input type="text" class="form-control" name="First Name" required>
                   </div>
 
                   <div class="col-md-6">
-                    <label for="lastName" class="form-label fw-semibold">Last Name</label>
-                    <input 
-                      type="text" 
-                      class="form-control" 
-                      id="lastName" 
-                      name="lastName" 
-                      placeholder="Last name"
-                      required
-                    >
+                    <label class="form-label fw-semibold">Last Name</label>
+                    <input type="text" class="form-control" name="Last Name" required>
                   </div>
 
                   <div class="col-md-6">
-                    <label for="email" class="form-label fw-semibold">Email Address</label>
-                    <input 
-                      type="email" 
-                      class="form-control" 
-                      id="email" 
-                      name="email" 
-                      placeholder="you@example.com"
-                      required
-                    >
+                    <label class="form-label fw-semibold">Email</label>
+                    <input type="email" class="form-control" name="email" required>
                   </div>
 
                   <div class="col-md-6">
-                    <label for="phone" class="form-label fw-semibold">Phone Number</label>
-                    <input 
-                      type="tel" 
-                      class="form-control" 
-                      id="phone" 
-                      name="phone" 
-                      placeholder="Best number to reach you"
-                    >
+                    <label class="form-label fw-semibold">Phone</label>
+                    <input type="tel" class="form-control" name="Phone Number">
                   </div>
 
                   <div class="col-12">
-                    <label for="serviceType" class="form-label fw-semibold">Type of Project</label>
-                    <select class="form-select" id="serviceType" name="serviceType" required>
-                      <option value="" selected disabled>Select a service</option>
+                    <label class="form-label fw-semibold">Project Type</label>
+                    <select class="form-select" name="Project Type" required>
+                      <option value="" disabled selected>Select a service</option>
                       <option>General Repairs</option>
                       <option>Home Improvements</option>
                       <option>Installations</option>
@@ -245,15 +173,8 @@
                   </div>
 
                   <div class="col-12">
-                    <label for="message" class="form-label fw-semibold">Project Details</label>
-                    <textarea 
-                      class="form-control" 
-                      id="message" 
-                      name="message" 
-                      rows="6" 
-                      placeholder="Tell us a little about what you need done"
-                      required
-                    ></textarea>
+                    <label class="form-label fw-semibold">Project Details</label>
+                    <textarea class="form-control" name="Project Details" rows="5" required></textarea>
                   </div>
 
                   <div class="col-12">
@@ -265,30 +186,24 @@
                 </div>
 
               </form>
+
             </div>
           </div>
         </div>
-        <!-- ================= END CONTACT FORM =========== -->
 
       </div>
     </div>
   </section>
-  <!-- ================= END CONTACT SECTION ============= -->
 
-  <!-- ================= SIMPLE CTA ====================== -->
-  <section class="py-5 bg-dark text-white">
+  <!-- ================= CTA ============================ -->
+  <section class="py-5 bg-dark text-white text-center">
     <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-3">Straightforward Service Starts Here</h2>
-          <p class="mb-0">
-            Whether it is a quick repair or a bigger home project, Hallz to the Wallz is ready to help you get it handled the right way.
-          </p>
-        </div>
-      </div>
+      <h2 class="fw-bold mb-3">Let’s Get It Done</h2>
+      <p class="mb-0">
+        Straightforward work. Reliable results. No headaches.
+      </p>
     </div>
   </section>
-  <!-- ================= END SIMPLE CTA ================== -->
 
 </main>
 
@@ -301,7 +216,6 @@
     </p>
   </div>
 </footer>
-<!-- ================= END FOOTER ======================= -->
 
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
